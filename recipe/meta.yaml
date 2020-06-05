@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tsibbledata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tsibbledata/tsibbledata_{{ version }}.tar.gz
-  sha256: 78074290f5c307762fdc455fafd35811892efa8c6774f5fa253fbc7ba7931b9f
+  sha256: 6edd767ad6ee19fdbbcfac64162ae13976ecf13b25727e1344903e0f15ec7752
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,11 +38,9 @@ test:
 about:
   home: http://tsibbledata.tidyverts.org/
   license: GPL-3
-  summary: Provides diverse datasets in the 'tsibble' data structure. These datasets are useful
-    for learning and demonstrating how tidy temporal data can tidied, visualised, and
-    forecasted.
+  summary: Provides diverse datasets in the 'tsibble' data structure. These datasets are useful for learning and demonstrating how tidy temporal data can tidied, visualised, and forecasted.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
