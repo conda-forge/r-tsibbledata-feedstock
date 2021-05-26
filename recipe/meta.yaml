@@ -37,7 +37,7 @@ test:
 
 about:
   home: http://tsibbledata.tidyverts.org/
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Provides diverse datasets in the 'tsibble' data structure. These datasets are useful for learning and demonstrating how tidy temporal data can tidied, visualised, and forecasted.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
