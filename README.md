@@ -3,7 +3,7 @@ About r-tsibbledata
 
 Home: http://tsibbledata.tidyverts.org/
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsibbledata-feedstock/blob/master/LICENSE.txt)
 
