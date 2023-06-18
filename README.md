@@ -1,11 +1,11 @@
-About r-tsibbledata
-===================
+About r-tsibbledata-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsibbledata-feedstock/blob/main/LICENSE.txt)
 
 Home: http://tsibbledata.tidyverts.org/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tsibbledata-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides diverse datasets in the 'tsibble' data structure. These datasets are useful for learning and demonstrating how tidy temporal data can tidied, visualised, and forecasted.
 
